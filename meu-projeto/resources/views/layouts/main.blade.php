@@ -10,7 +10,6 @@
 
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
-        <!-- <img src="/img/banner.jpg" alt="Banner"> -->
     </head>
     <body>
         <header>
@@ -24,7 +23,7 @@
                            <a href="/" class="nav-link">Eventos</a> 
                         </li>
                         <li class="nav-item">
-                           <a href="/" class="nav-link">Criar Eventos</a> 
+                           <a href="/events/create" class="nav-link">Criar Eventos</a> 
                         </li>
                         <li class="nav-item">
                            <a href="/" class="nav-link">Entrar</a> 
@@ -36,10 +35,10 @@
                 </div>
             </nav>
         </header>
-
         @yield('content')
         <footer>
             <p>Siga Nossa Pagina &copy; 2024</p>
         </footer>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     </body>   
 </html>
